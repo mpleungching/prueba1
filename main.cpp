@@ -1,11 +1,11 @@
-#include "mainwindow.h"
-
 #include <QApplication>
+#include "MazeWidget.h"
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
-    MainWindow w;
+
+    MazeWidget w;
     w.show();
+
     return a.exec();
 }
